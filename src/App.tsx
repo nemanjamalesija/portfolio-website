@@ -1,12 +1,12 @@
 import React from 'react';
-import {Nav, About} from './components';
-
+import { Nav, About, Projects } from './components';
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <About />
+      <Projects />
     </div>
   );
 }
