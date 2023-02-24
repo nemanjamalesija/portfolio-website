@@ -1,6 +1,6 @@
 import React from 'react';
-import Nav from './Nav';
-import About from './About';
+import {Nav, About} from './components';
+
 
 function App() {
   return (
