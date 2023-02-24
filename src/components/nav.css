@@ -1,0 +1,49 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 9rem;
+  align-items: center;
+  height: 9rem;
+  width: 100%;
+  padding: 0 6rem;
+  z-index: 100;
+}
+
+.nav.sticky {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.image-div {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  cursor: pointer;
+}
+
+.author-photo {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+}
+
+.author-paragraph {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-gray-primary);
+}
+
+.links-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  min-width: 15rem;
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--color-gray-primary);
+  cursor: pointer;
+}
