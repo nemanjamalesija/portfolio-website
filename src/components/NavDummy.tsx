@@ -1,7 +1,6 @@
 import React from 'react';
 import './nav.css';
 import nemanja from '../utils/images/nemanja.png';
-import { useRefsContext } from '../refContext';
 
 const NavDummy = () => {
   return (
