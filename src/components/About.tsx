@@ -26,7 +26,7 @@ const About = () => {
             <div className="container-skills">
               <span className="skill">HTML5</span>
               <span className="skill">CSS3</span>
-              <span className="skill">Boostrap</span>
+              <span className="skill">Bootstrap</span>
               <span className="skill">Responsive Design</span>
               <span className="skill">Javascript</span>
               <span className="skill">React</span>
