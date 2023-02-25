@@ -29,6 +29,7 @@
   font-weight: 400;
   margin-bottom: 0.5rem;
   font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .big-heading {
@@ -44,15 +45,15 @@
   color: #777;
   line-height: 0.9;
   white-space: nowrap;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .hero-paragraph {
   font-size: 1.6rem;
   color: #777;
-  line-height: 1.9;
-  max-width: 80%;
+  max-width: 64rem;
   margin-bottom: 3.2rem;
+  line-height: 1.9;
 }
 
 .btn-projects-hero {
