@@ -8,6 +8,11 @@
 
 .project-display-image-div img {
   width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.project-display-image-div img:hover {
+  transform: scale(1.1);
 }
 
 .project-display-description-p {

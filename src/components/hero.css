@@ -10,7 +10,7 @@
   transition: top 1s ease, opacity 1s ease;
 }
 
-.animate {
+.hero-animate {
   top: 0;
   opacity: 1;
 }
@@ -44,7 +44,15 @@
   color: #777;
   line-height: 0.9;
   white-space: nowrap;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-paragraph {
+  font-size: 1.6rem;
+  color: #777;
+  line-height: 1.9;
+  max-width: 80%;
+  margin-bottom: 3.2rem;
 }
 
 .btn-projects-hero {

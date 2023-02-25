@@ -51,7 +51,7 @@ const Hero = () => {
   useEffect(() => {
     if (!navRef.current) return;
     if (!heroRef.current) return;
-    heroRef.current.classList.add('animate');
+    heroRef.current.classList.add('hero-animate');
     setNavRefHeight(navRef.current.clientHeight);
     heroObserver.observe(heroRef.current);
 
@@ -65,6 +65,11 @@ const Hero = () => {
           <p className="hi-paragraph">Hi, my name is</p>
           <h1 className="big-heading">Nemanja Malesija.</h1>
           <h2 className="smaller-heading">I turn ideas into code.</h2>
+          <p className="hero-paragraph">
+            I'm a web developer specializing in building (and occasionally
+            designing) interesting digital experiences. Welcome to my page! I'm
+            glad to have you here.
+          </p>
         </div>
         <button
           className="btn btn-projects-hero"
