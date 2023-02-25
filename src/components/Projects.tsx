@@ -1,11 +1,13 @@
+import { useRefsContext } from '../refContext';
 import project1 from '../utils/images/project1.png';
 import project2 from '../utils/images/project2.png';
 import project3 from '../utils/images/project3.png';
 import './projects.css';
 
 const Projects = () => {
+  const { projectsRef } = useRefsContext();
   return (
-    <section className="section section-projects">
+    <section className="section section-projects" ref={projectsRef}>
       <div className="container container-projects">
         <header className="header header-projects">
           <h3 className="subheading">Projects</h3>
@@ -43,8 +45,8 @@ const Projects = () => {
           </div>
           <div className="project-display-item display-invert">
             <div className="project-display-description-div">
+              <h3 className="subheading">youtube clone</h3>
               <p className="project-display-description-p">
-                <h3 className="subheading">youtube clone</h3>
                 Video sharing plaftorm similar to YouTube done in dark mode.
               </p>
               <div className="project-display-buttons-div">

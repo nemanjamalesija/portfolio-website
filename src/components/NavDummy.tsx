@@ -3,10 +3,10 @@ import './nav.css';
 import nemanja from '../utils/images/nemanja.png';
 import { useRefsContext } from '../refContext';
 
-const Nav = () => {
+const NavDummy = () => {
   const { navRef } = useRefsContext();
   return (
-    <nav className="nav" ref={navRef}>
+    <nav className="nav">
       <div className="image-div">
         <img className="author-photo" src={nemanja} alt="Nemanja Malesija" />
         <p className="author-paragraph">Nemanja Malesija</p>
@@ -22,4 +22,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default NavDummy;

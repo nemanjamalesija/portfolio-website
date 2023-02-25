@@ -1,9 +1,11 @@
 import React from 'react';
+import { useRefsContext } from '../refContext';
 import './about.css';
 
 const About = () => {
+  const { aboutRef } = useRefsContext();
   return (
-    <section className="section section-about">
+    <section className="section section-about" ref={aboutRef}>
       <div className="container container-about">
         <header className="header header-about">
           <h3 className="subheading">About me</h3>

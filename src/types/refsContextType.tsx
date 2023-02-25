@@ -4,4 +4,5 @@ export type refsContextValues = {
   aboutRef: React.RefObject<HTMLDivElement>;
   projectsRef: React.RefObject<HTMLDivElement>;
   formRef: React.RefObject<HTMLDivElement>;
+  navRefDummy: React.RefObject<HTMLDivElement>;
 };

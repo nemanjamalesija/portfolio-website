@@ -7,6 +7,7 @@ const RefsContext = React.createContext<refsContextValues>({
   aboutRef: createRef<HTMLDivElement>(),
   projectsRef: createRef<HTMLDivElement>(),
   formRef: createRef<HTMLDivElement>(),
+  navRefDummy: createRef<HTMLDivElement>(),
 });
 
 const RefsProvider = ({ children }: { children: React.ReactNode }) => {
@@ -15,6 +16,7 @@ const RefsProvider = ({ children }: { children: React.ReactNode }) => {
   const aboutRef = useRef<HTMLDivElement>(null);
   const projectsRef = useRef<HTMLDivElement>(null);
   const formRef = useRef<HTMLDivElement>(null);
+  const navRefDummy = useRef<HTMLDivElement>(null);
 
   return (
     <RefsContext.Provider
@@ -24,6 +26,7 @@ const RefsProvider = ({ children }: { children: React.ReactNode }) => {
         aboutRef,
         projectsRef,
         formRef,
+        navRefDummy,
       }}
     >
       {children}
