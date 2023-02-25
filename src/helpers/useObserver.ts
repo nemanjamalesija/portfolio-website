@@ -5,7 +5,7 @@ const useObserver = () => {
 
   const sectionObserverOptionsObject = {
     root: null,
-    threshold: 0.3,
+    threshold: 0.15,
   };
 
   const sectionObserverCallback = (entries: any) => {

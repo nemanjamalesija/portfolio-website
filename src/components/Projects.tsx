@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+import useObserver from '../helpers/useObserver';
 import { useRefsContext } from '../refContext';
 import project1 from '../utils/images/project1.png';
 import project2 from '../utils/images/project2.png';
@@ -6,8 +8,22 @@ import './projects.css';
 
 const Projects = () => {
   const { projectsRef } = useRefsContext();
+  const { sectionObserver, isObserving } = useObserver();
+  const aboutObserver = sectionObserver();
+
+  useEffect(() => {
+    if (!projectsRef.current) return;
+    aboutObserver.observe(projectsRef.current);
+
+    return () => aboutObserver.disconnect();
+  }, [projectsRef, isObserving, aboutObserver]);
   return (
-    <section className="section section-projects" ref={projectsRef}>
+    <section
+      className={`${
+        isObserving ? 'section section-tansform' : 'section section-hidden'
+      }`}
+      ref={projectsRef}
+    >
       <div className="container container-projects">
         <header className="header header-projects">
           <h3 className="subheading">Projects</h3>
