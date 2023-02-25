@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+::before,
+::after {
+  box-sizing: inherit;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -23,6 +28,30 @@ body {
 
 .section {
   background-color: #fafafa;
+
+  padding: 12rem 0;
+}
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.header {
+  margin-bottom: 9.6rem;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  line-height: 1.3;
+  color: var(--color-gray-primary);
 }
 
 .btn {
@@ -30,7 +59,7 @@ body {
   background-color: var(--color-primary);
   color: #fff;
   border: none;
-  border-radius: 0.9rem;
+  border-radius: 5px;
   font-weight: 600;
   line-height: 1;
   cursor: pointer;
