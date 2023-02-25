@@ -21,11 +21,23 @@ const Projects = () => {
             <div className="project-display-description-div">
               <h3 className="subheading">E commerce store</h3>
               <p className="project-display-description-p">
-                Fully responsive Ecommerce website with landing page.
+                Fully responsive E commerce website with landing page.
               </p>
               <div className="project-display-buttons-div">
-                <button className="btn btn-netlify">Live link</button>
-                <button className="btn btn-github">Github</button>
+                <div className="project-display-buttons-div">
+                  <a
+                    className="btn btn-netlify"
+                    href="https://nemanja-malesija-e-commerce.netlify.app/"
+                  >
+                    Live link
+                  </a>
+                  <a
+                    className="btn btn-github"
+                    href="https://github.com/nemanjamalesija/x-shoppers-dream-e-commerce"
+                  >
+                    Github
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -36,8 +48,20 @@ const Projects = () => {
                 Video sharing plaftorm similar to YouTube done in dark mode.
               </p>
               <div className="project-display-buttons-div">
-                <button className="btn btn-netlify">Live link</button>
-                <button className="btn btn-github">Github</button>
+                <div className="project-display-buttons-div">
+                  <a
+                    className="btn btn-netlify"
+                    href="https://nemanja-malesija-youtube-clone.netlify.app/"
+                  >
+                    Live link
+                  </a>
+                  <a
+                    className="btn btn-github"
+                    href="https://github.com/nemanjamalesija/youtube-clone"
+                  >
+                    Github
+                  </a>
+                </div>
               </div>
             </div>
             <div className="project-display-image-div">
@@ -55,8 +79,18 @@ const Projects = () => {
                 about themselves as well as to preview and print their CV.
               </p>
               <div className="project-display-buttons-div">
-                <button className="btn btn-netlify">Live link</button>
-                <button className="btn btn-github">Github</button>
+                <a
+                  className="btn btn-netlify"
+                  href="https://nemanjamalesija-cvcreator.netlify.app/"
+                >
+                  Live link
+                </a>
+                <a
+                  className="btn btn-github"
+                  href="https://github.com/nemanjamalesija/cv-creator"
+                >
+                  Github
+                </a>
               </div>
             </div>
           </div>

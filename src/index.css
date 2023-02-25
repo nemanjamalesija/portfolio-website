@@ -26,6 +26,12 @@ body {
   line-height: 1.9;
 }
 
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
 .section {
   background-color: #fafafa;
 

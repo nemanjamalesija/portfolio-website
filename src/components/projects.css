@@ -1,7 +1,7 @@
 .project-display-item {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5rem;
+  gap: 8rem;
   align-items: center;
   margin-bottom: 9.6rem;
 }
