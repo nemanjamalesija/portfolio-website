@@ -51,7 +51,7 @@ const Hero = () => {
   useEffect(() => {
     if (!navRef.current) return;
     if (!heroRef.current) return;
-
+    heroRef.current.classList.add('animate');
     setNavRefHeight(navRef.current.clientHeight);
     heroObserver.observe(heroRef.current);
 
