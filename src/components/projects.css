@@ -1,0 +1,22 @@
+.project-display-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  margin-bottom: 9.6rem;
+}
+
+.project-display-image-div img {
+  width: 100%;
+}
+
+.project-display-description-p {
+  font-size: 1.8rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.project-display-buttons-div {
+  display: flex;
+  gap: 1.2rem;
+}
