@@ -5,7 +5,7 @@ const useObserver = () => {
 
   const sectionObserverOptionsObject = {
     root: null,
-    threshold: 0.2,
+    threshold: 0.3,
   };
 
   const sectionObserverCallback = (entries: any) => {
@@ -13,8 +13,6 @@ const useObserver = () => {
 
     if (!entry.isIntersecting) return;
     setisObserving(true);
-
-    entry.target.classList.remove('section--hidden');
   };
 
   const sectionObserver = () => {

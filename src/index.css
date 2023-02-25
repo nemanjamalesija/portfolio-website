@@ -34,9 +34,22 @@ a {
 
 .section {
   background-color: #fafafa;
-
   padding: 12rem 0;
+  transition: transform 1s, opacity 1s;
 }
+
+.section-hidden {
+  transform: translateY(8rem);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.section-transform {
+  transform: translateY(-8rem);
+  opacity: 1;
+  visibility: visible;
+}
+
 .container {
   width: 120rem;
   margin: 0 auto;

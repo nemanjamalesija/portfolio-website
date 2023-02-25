@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import useObserver from '../helpers/useObserver';
 import { useRefsContext } from '../refContext';
 import './about.css';
 
 const About = () => {
   const { aboutRef } = useRefsContext();
+  const { sectionObserver, isObserving } = useObserver();
+  const aboutObserver = sectionObserver();
+
+  useEffect(() => {
+    if (!aboutRef.current) return;
+    aboutObserver.observe(aboutRef.current);
+
+    return () => aboutObserver.disconnect();
+  }, [aboutRef, isObserving, aboutObserver]);
   return (
-    <section className="section section-about" ref={aboutRef}>
+    <section
+      className={`${
+        isObserving ? 'section section-tansform' : 'section section-hidden'
+      }`}
+      ref={aboutRef}
+    >
       <div className="container container-about">
         <header className="header header-about">
           <h3 className="subheading">About me</h3>
