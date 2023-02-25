@@ -27,7 +27,6 @@ const Hero = () => {
   const navObserverFunctionCallback = (entries: any) => {
     const [entry] = entries;
     setIsObserving(entry.isIntersecting);
-    console.log(entry.isIntersecting);
 
     if (!navRef.current) return;
 

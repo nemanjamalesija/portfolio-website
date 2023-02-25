@@ -4,7 +4,6 @@ import nemanja from '../utils/images/nemanja.png';
 import { useRefsContext } from '../refContext';
 
 const NavDummy = () => {
-  const { navRef } = useRefsContext();
   return (
     <nav className="nav">
       <div className="image-div">
