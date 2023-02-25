@@ -1,0 +1,34 @@
+.section-hero {
+  padding-top: 10rem;
+  height: auto;
+  line-height: 1.1;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.hi-paragraph {
+  color: var(--color-primary);
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.big-heading {
+  font-size: clamp(4rem, 8vw, 8rem);
+  color: var(--color-gray-primary);
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+.smaller-heading {
+  font-weight: 600;
+  font-size: clamp(4rem, 8vw, 8rem);
+  color: #777;
+  line-height: 0.9;
+  white-space: nowrap;
+  margin-bottom: 3rem;
+}
+
+.btn-projects-hero {
+  font-size: 1.6rem;
+}

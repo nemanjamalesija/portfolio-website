@@ -2,6 +2,7 @@
 
 :root {
   --color-gray-primary: #444;
+  --color-primary: #5ec576;
 }
 
 * {
@@ -17,8 +18,20 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #fafafa;
+  line-height: 1.9;
 }
 
 .section {
   background-color: #fafafa;
+}
+
+.btn {
+  padding: 1.6rem 1.8rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 0.9rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
 }
