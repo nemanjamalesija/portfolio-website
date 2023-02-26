@@ -56,8 +56,8 @@ const Contact = () => {
             Let's get in touch!
           </h2>
           <p className="form-paragraph">
-            Feel free to leave me a message. I'll get back to you as soon as I
-            can!
+            Feel free to leave me a message! I'll get back to you as soon as I
+            can.
           </p>
 
           <form className="form-contact" method="POST" onSubmit={handleSubmit}>
