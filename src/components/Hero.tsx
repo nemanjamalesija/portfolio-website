@@ -71,11 +71,8 @@ const Hero = () => {
             glad to have you here.
           </p>
         </div>
-        <button
-          className="btn btn-projects-hero"
-          onClick={scrollIntoViewHandler}
-        >
-          Check out my projects!
+        <button className="btn-projects-hero" onClick={scrollIntoViewHandler}>
+          Check out my projects ↓
         </button>
       </section>
     </>
