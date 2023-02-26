@@ -58,6 +58,7 @@
 .btn-projects-hero {
   font-size: 1.6rem;
   font-weight: 500;
+  font-family: inherit;
   display: inline-block;
   background: none;
   font-weight: 500;
