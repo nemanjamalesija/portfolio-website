@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, About, Projects, Contact, Hero, Footer } from './components';
+import { Nav, About, Projects, Contact, Hero, Footer, FooterLower } from './components';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <FooterLower />
     </div>
   );
 }

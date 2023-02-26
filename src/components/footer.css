@@ -1,6 +1,7 @@
 .main-footer {
   background-color: #37383d;
   color: #fff;
+  transition: transform 1s, opacity 1s;
 }
 
 .footer-container {
@@ -61,18 +62,4 @@
 .footer-icon {
   margin-right: 1rem;
   width: 2.5rem;
-}
-
-.footer-lower {
-  padding: 4rem 0;
-  border-top: 1px solid var(--color-gray-primary);
-  color: #eee;
-  font-size: 1.2rem;
-  text-align: left;
-  text-align: center;
-}
-.footer-lower a {
-  text-decoration: underline;
-  font-weight: bold;
-  margin-left: 2px;
 }
