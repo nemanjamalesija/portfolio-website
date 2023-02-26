@@ -69,3 +69,7 @@
   cursor: pointer;
   transition: all 0.3s;
 }
+
+.btn-projects-hero:hover {
+  color: var(--color-primary-shade);
+}
