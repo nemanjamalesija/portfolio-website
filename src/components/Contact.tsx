@@ -21,7 +21,7 @@ const Contact = () => {
     const data = new FormData(form);
 
     try {
-      const response = await fetch('https://formspree.io/f/xvod', {
+      const response = await fetch('https://formspree.io/f/xpzedvod', {
         method: 'POST',
         body: data,
         headers: {
@@ -60,12 +60,7 @@ const Contact = () => {
             can!
           </p>
 
-          <form
-            className="form-contact"
-            action="https://formspree.io/f/xpzedvod"
-            method="POST"
-            onSubmit={handleSubmit}
-          >
+          <form className="form-contact" method="POST" onSubmit={handleSubmit}>
             <div>
               <label>
                 Your name:
