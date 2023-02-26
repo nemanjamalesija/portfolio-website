@@ -1,0 +1,45 @@
+.form-container {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  background: linear-gradient(to right, #4b9e5e, #428a53);
+  max-width: 80rem;
+  margin: 0 auto;
+  color: #1c3b23;
+  box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 15%);
+  border-radius: 11px;
+}
+
+.form-paragraph {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+  font-weight: 500;
+}
+
+.form-contact label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.form-contact input,
+textarea,
+button {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #eff9f1;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+.form-contact button {
+  cursor: pointer;
+}
+
+.form-contact textarea {
+  min-height: 15rem;
+}
