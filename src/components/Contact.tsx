@@ -68,14 +68,14 @@ const Contact = () => {
           >
             <div>
               <label>
-                Your email:
-                <input type="email" name="email" required />
+                Your name:
+                <input type="tet" name="userName" required />
               </label>
             </div>
             <div>
               <label>
-                Your name:
-                <input type="tet" name="userName" required />
+                Your email:
+                <input type="email" name="email" required />
               </label>
             </div>
             <div>
