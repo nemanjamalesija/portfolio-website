@@ -28,9 +28,8 @@
 }
 
 .author-paragraph {
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: #666;
+  font-size: 1.7rem;
+  font-weight: 400;
 }
 
 .links-list {
@@ -40,11 +39,10 @@
 }
 
 .list-item {
-  font-size: 1.8rem;
-  min-width: 15rem;
+  font-size: 1.7rem;
+  min-width: 14rem;
   text-decoration: none;
-  font-weight: 500;
-  color: #666;
+  font-weight: 400;
   cursor: pointer;
   transition: all 0.3s;
 }
