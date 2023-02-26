@@ -36,6 +36,7 @@
 .heading-fifth {
   font-size: 1.6rem;
   line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
 .footer-row-1 {
@@ -49,14 +50,10 @@
 }
 
 .footer-mail {
-  margin-top: 2rem;
   color: #fff;
   font-size: 1.4rem;
   line-height: 1.5;
-}
-
-.main-footer-social {
-  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .footer-icon {
