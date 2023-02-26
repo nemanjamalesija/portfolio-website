@@ -1,8 +1,7 @@
 import React from 'react';
-import { Nav, About, Projects, Contact, Hero } from './components';
+import { Nav, About, Projects, Contact, Hero, Footer } from './components';
 
 function App() {
-
   return (
     <div className="App">
       <Nav />
@@ -10,6 +9,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

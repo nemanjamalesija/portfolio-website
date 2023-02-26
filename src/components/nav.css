@@ -30,6 +30,7 @@
 .author-paragraph {
   font-size: 1.7rem;
   font-weight: 400;
+  color: var(--color-gray-primary);
 }
 
 .links-list {
@@ -45,6 +46,7 @@
   font-weight: 400;
   cursor: pointer;
   transition: all 0.3s;
+  color: var(--color-gray-primary);
 }
 
 .list-item-contact {
