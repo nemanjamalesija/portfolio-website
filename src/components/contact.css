@@ -48,6 +48,11 @@ textarea,
   background-color: #1c3b23;
   color: #fff;
   font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn-form:hover {
+  background-color: #193520;
 }
 
 .p-failure {

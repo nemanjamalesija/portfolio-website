@@ -5,6 +5,36 @@ import { useRefsContext } from '../refContext';
 
 const Nav = () => {
   const { navRef } = useRefsContext();
+  const { heroRef, aboutRef, projectsRef, formRef } = useRefsContext();
+
+  const scrollToHero = (e: any) => {
+    if (!heroRef.current) return;
+    let scrollDistance: number;
+    scrollDistance = heroRef.current.offsetTop - 100;
+    window.scrollTo({ top: scrollDistance, behavior: 'smooth' });
+  };
+
+  const scrollToAbout = (e: any) => {
+    if (!aboutRef.current) return;
+    let scrollDistance: number;
+    scrollDistance = aboutRef.current.offsetTop;
+    window.scrollTo({ top: scrollDistance, behavior: 'smooth' });
+  };
+
+  const scrollToProjects = (e: any) => {
+    if (!projectsRef.current) return;
+    let scrollDistance: number;
+    scrollDistance = projectsRef.current.offsetTop;
+    window.scrollTo({ top: scrollDistance, behavior: 'smooth' });
+  };
+
+  const scrollToForm = (e: any) => {
+    if (!formRef.current) return;
+    let scrollDistance: number;
+    scrollDistance = formRef.current.offsetTop;
+    window.scrollTo({ top: scrollDistance, behavior: 'smooth' });
+  };
+
   return (
     <nav className="nav" ref={navRef}>
       <div className="image-div">
@@ -13,10 +43,18 @@ const Nav = () => {
       </div>
 
       <ul className="links-list">
-        <li className="list-item">Home</li>
-        <li className="list-item">About</li>
-        <li className="list-item">Projects</li>
-        <li className="list-item list-item-contact">Contact</li>
+        <li className="list-item" onClick={scrollToHero}>
+          Home
+        </li>
+        <li className="list-item" onClick={scrollToAbout}>
+          About
+        </li>
+        <li className="list-item" onClick={scrollToProjects}>
+          Projects
+        </li>
+        <li className="list-item list-item-contact" onClick={scrollToForm}>
+          Contact
+        </li>
       </ul>
     </nav>
   );
