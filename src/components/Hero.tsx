@@ -66,8 +66,8 @@ const Hero = () => {
           <h1 className="big-heading">Nemanja Malesija.</h1>
           <h2 className="smaller-heading">I turn ideas into code.</h2>
           <p className="hero-paragraph">
-            I'm a web developer specializing in building (and occasionally
-            designing) interesting digital experiences. Welcome to my page!
+            I'm a web developer specializing in building interesting digital
+            experiences. Welcome to my page!
           </p>
         </div>
         <button className="btn-projects-hero" onClick={scrollIntoViewHandler}>
