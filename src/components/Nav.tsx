@@ -16,7 +16,7 @@ const Nav = () => {
         <li className="list-item">Home</li>
         <li className="list-item">About</li>
         <li className="list-item">Projects</li>
-        <li className="contact"></li>
+        <li className="list-item list-item-contact">Contact</li>
       </ul>
     </nav>
   );

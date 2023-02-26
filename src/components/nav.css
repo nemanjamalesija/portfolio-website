@@ -29,7 +29,7 @@
 
 .author-paragraph {
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--color-gray-primary);
 }
 
@@ -43,7 +43,15 @@
   font-size: 1.8rem;
   min-width: 15rem;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--color-gray-primary);
   cursor: pointer;
+}
+
+.list-item-contact {
+  padding: 0.5rem 0.7rem;
+  text-align: center;
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 5px;
 }
