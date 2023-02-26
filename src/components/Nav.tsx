@@ -35,14 +35,37 @@ const Nav = () => {
     window.scrollTo({ top: scrollDistance, behavior: 'smooth' });
   };
 
+  const handleHover = (e: any) => {
+    const links = e.currentTarget.querySelectorAll('.list-item');
+    const currentLink = e.target;
+
+    links.forEach((link: any) => {
+      link.classList.remove('full-opacity');
+      link.classList.add('half-opacity');
+      if (currentLink) currentLink.classList.add('full-opacity');
+    });
+  };
+
+  const handleLeave = (e: any) => {
+    const links = e.currentTarget.querySelectorAll('.list-item');
+    links.forEach((link: any) => {
+      link.classList.remove('half-opacity');
+      link.classList.remove('full-opacity');
+    });
+  };
+
   return (
     <nav className="nav" ref={navRef}>
-      <div className="image-div">
+      <div className="image-div" onClick={scrollToHero}>
         <img className="author-photo" src={nemanja} alt="Nemanja Malesija" />
         <p className="author-paragraph">Nemanja Malesija</p>
       </div>
 
-      <ul className="links-list">
+      <ul
+        className="links-list"
+        onMouseOver={handleHover}
+        onMouseLeave={handleLeave}
+      >
         <li className="list-item" onClick={scrollToHero}>
           Home
         </li>

@@ -44,19 +44,27 @@
   min-width: 15rem;
   text-decoration: none;
   font-weight: 500;
-  color: var(--color-gray-primary);
+  color: #666;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 .list-item-contact {
   padding: 0.5rem 0.7rem;
   text-align: center;
-  background-color: #666;
+  background-color: var(--color-primary);
   color: #fff;
   border-radius: 5px;
 }
 
 .list-item-contact:hover {
   background-color: var(--color-primary-shade);
-  transition: all 0.3s;
+}
+
+.half-opacity {
+  opacity: 0.5;
+}
+
+.full-opacity {
+  opacity: 1;
 }
