@@ -3,11 +3,11 @@ import { refsContextValues } from './types/refsContextType';
 
 const RefsContext = React.createContext<refsContextValues>({
   navRef: createRef<HTMLDivElement>(),
+  navRefDummy: createRef<HTMLDivElement>(),
   heroRef: createRef<HTMLDivElement>(),
   aboutRef: createRef<HTMLDivElement>(),
   projectsRef: createRef<HTMLDivElement>(),
   formRef: createRef<HTMLDivElement>(),
-  navRefDummy: createRef<HTMLDivElement>(),
 });
 
 const RefsProvider = ({ children }: { children: React.ReactNode }) => {

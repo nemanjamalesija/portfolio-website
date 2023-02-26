@@ -1,7 +1,6 @@
 .form-container {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-  background: linear-gradient(to right, #4b9e5e, #428a53);
-
+  background: linear-gradient(to bottom, #4b9e5e, #428a53);
   max-width: 80rem;
   margin: 0 auto;
   color: #1c3b23;
@@ -25,7 +24,9 @@
 
 .form-contact input,
 textarea,
-button {
+.btn-form,
+.p-success,
+.p-failure {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.8rem;
@@ -37,10 +38,24 @@ button {
   box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
 }
 
-.form-contact button {
-  cursor: pointer;
-}
-
 .form-contact textarea {
   min-height: 15rem;
+}
+
+.btn-form,
+.p-success {
+  cursor: pointer;
+  background-color: #1c3b23;
+  color: #fff;
+  font-weight: 500;
+}
+
+.p-failure {
+  background-color: #660000;
+  color: #fff;
+}
+
+.p-success,
+.p-failure {
+  text-align: center;
 }
