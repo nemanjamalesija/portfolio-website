@@ -108,3 +108,24 @@
     width: 50rem;
   }
 }
+
+@media (max-width: 500px) {
+  .section-hero {
+    width: 40rem;
+  }
+
+  .hero-paragraph {
+    font-size: 1.7rem;
+  }
+
+  .btn-projects-hero,
+  .hi-paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .section-hero {
+    width: 35rem;
+  }
+}

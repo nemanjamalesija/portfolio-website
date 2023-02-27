@@ -97,3 +97,27 @@ textarea,
     min-height: 10rem;
   }
 }
+
+@media (max-width: 500px) {
+  .form-paragraph {
+    margin-bottom: 3.2rem;
+  }
+  .form-contact input,
+  textarea,
+  .btn-form,
+  .p-success,
+  .p-failure {
+    padding: 0.8rem;
+  }
+
+  .form-contact textarea {
+    min-height: 8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .form-paragraph {
+    margin-bottom: 3.2rem;
+    font-size: 1.5rem;
+  }
+}

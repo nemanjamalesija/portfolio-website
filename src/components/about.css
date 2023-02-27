@@ -61,3 +61,13 @@
 
 @media (max-width: 691px) {
 }
+
+@media (max-width: 400px) {
+  .about-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .skill {
+    font-size: 1.5rem;
+  }
+}

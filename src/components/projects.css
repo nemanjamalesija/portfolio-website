@@ -35,6 +35,10 @@
   .project-display-description-div {
     grid-row: 2;
   }
+
+  .project-display-item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 691px) {
