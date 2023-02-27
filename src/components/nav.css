@@ -125,11 +125,17 @@
     font-size: 1.4rem;
   }
 
+  .links-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
+  }
+
   .list-item-contact {
     padding: 0;
-    padding-left: 0.8rem;
     background-color: #fafafa;
     color: var(--color-primary);
+    font-weight: 600;
   }
 }
 
@@ -144,12 +150,12 @@
 
   .list-item {
     font-size: 1.2rem;
-    min-width: 5.2rem;
+    min-width: 4rem;
   }
 
   .author-photo {
-    width: 3.6rem;
-    height: 3.6rem;
+    width: 3.2rem;
+    height: 3.2rem;
   }
 
   .author-paragraph {
