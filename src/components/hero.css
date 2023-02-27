@@ -74,6 +74,12 @@
   color: var(--color-primary-shade);
 }
 
+@media screen and (orientation: landscape) {
+  .section-hero {
+    margin-bottom: 12rem;
+  }
+}
+
 @media (max-width: 1001px) {
   .section-hero {
     width: 80rem;
