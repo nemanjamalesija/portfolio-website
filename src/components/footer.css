@@ -66,3 +66,17 @@
     padding: 4.8rem 0;
   }
 }
+
+@media (max-width: 595px) {
+  .heading-fourth {
+    font-size: 1.5rem;
+  }
+
+  .heading-fifth {
+    font-size: 1.4rem;
+  }
+
+  .footer-mail {
+    font-size: 1.3rem;
+  }
+}

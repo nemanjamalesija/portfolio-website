@@ -81,10 +81,6 @@
     padding: 0 3rem;
   }
 
-  .links-list {
-    width: auto;
-  }
-
   .list-item {
     min-width: 8rem;
     font-size: 1.6rem;
@@ -92,5 +88,20 @@
 
   .author-paragraph {
     font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 595px) {
+  .nav {
+    padding: 0 1.5rem;
+  }
+
+  .list-item {
+    min-width: 7.5rem;
+    font-size: 1.5rem;
+  }
+
+  .author-paragraph {
+    font-size: 1.5rem;
   }
 }
