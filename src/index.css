@@ -104,3 +104,15 @@ a:visited {
 .btn-github:hover {
   background-color: #eeee;
 }
+
+@media (max-width: 1201px) {
+  .container {
+    width: 100rem;
+  }
+}
+
+@media (max-width: 1001px) {
+  .container {
+    width: 80rem;
+  }
+}

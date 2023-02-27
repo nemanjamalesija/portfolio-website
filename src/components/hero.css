@@ -73,3 +73,9 @@
 .btn-projects-hero:hover {
   color: var(--color-primary-shade);
 }
+
+@media (max-width: 1001px) {
+  .section-hero {
+    width: 80rem;
+  }
+}
