@@ -126,7 +126,10 @@
   }
 
   .list-item-contact {
-    padding: 0.2rem 0.4rem;
+    padding: 0;
+    padding-left: 0.8rem;
+    background-color: #fafafa;
+    color: var(--color-primary);
   }
 }
 
@@ -152,10 +155,6 @@
   .author-paragraph {
     font-size: 1.2rem;
   }
-
-  .list-item-contact {
-    padding: 0.2rem 0.4rem;
-  }
 }
 
 @media (max-width: 376px) {
@@ -175,12 +174,5 @@
 
   .author-paragraph {
     font-size: 1.2rem;
-  }
-
-  .list-item-contact {
-    padding: 0;
-    padding-left: 0.8rem;
-    background-color: #fafafa;
-    color: var(--color-primary);
   }
 }
