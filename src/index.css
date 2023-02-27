@@ -106,8 +106,8 @@ a:visited {
 }
 
 @media screen and (orientation: landscape) {
-  .section-transform {
-    transform: translateY(-12rem);
+  .section {
+    padding: 6rem 0;
   }
 }
 
