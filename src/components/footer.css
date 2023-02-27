@@ -2,6 +2,7 @@
   background-color: #37383d;
   color: #fff;
   transition: transform 1s, opacity 1s;
+  margin-top: 12rem;
 }
 
 .footer-container {
@@ -78,5 +79,11 @@
 
   .footer-mail {
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-footer {
+    margin-top: 6rem;
   }
 }
