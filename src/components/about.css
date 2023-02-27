@@ -38,7 +38,16 @@
 }
 
 @media (max-width: 1001px) {
-  .section-hero {
-    width: 80rem;
+  .about-paragraph {
+    font-size: 1.6rem;
+    color: #666;
+  }
+
+  .container-content {
+    gap: 8rem;
+  }
+
+  .skill {
+    font-size: 1.4rem;
   }
 }

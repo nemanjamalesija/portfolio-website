@@ -64,3 +64,17 @@ textarea,
 .p-failure {
   text-align: center;
 }
+
+@media (max-width: 1001px) {
+  .form-container {
+    max-width: 65rem;
+  }
+
+  .form-contact input,
+  textarea,
+  .btn-form,
+  .p-success,
+  .p-failure {
+    font-size: 1.6rem;
+  }
+}
