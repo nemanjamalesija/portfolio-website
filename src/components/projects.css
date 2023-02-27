@@ -45,4 +45,12 @@
   .project-display-description-p {
     font-size: 1.6rem;
   }
+
+  .project-display-image-div img:hover {
+    transform: scale(1);
+  }
+
+  .project-display-item {
+    gap: 4rem;
+  }
 }
