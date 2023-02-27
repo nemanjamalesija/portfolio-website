@@ -105,6 +105,12 @@ a:visited {
   background-color: #eeee;
 }
 
+@media screen and (orientation: landscape) {
+  .section-transform {
+    transform: translateY(-12rem);
+  }
+}
+
 @media (max-width: 1201px) {
   .container {
     width: 100rem;
