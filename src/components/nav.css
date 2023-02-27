@@ -129,3 +129,58 @@
     padding: 0.2rem 0.4rem;
   }
 }
+
+@media (max-width: 415px) {
+  .nav {
+    padding: 0 0.5rem;
+  }
+
+  .image-div {
+    gap: 0.8rem;
+  }
+
+  .list-item {
+    font-size: 1.2rem;
+    min-width: 5.2rem;
+  }
+
+  .author-photo {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .author-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .list-item-contact {
+    padding: 0.2rem 0.4rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .image-div {
+    gap: 0.8rem;
+  }
+
+  .list-item {
+    font-size: 1.2rem;
+    min-width: 4.8rem;
+  }
+
+  .author-photo {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .author-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .list-item-contact {
+    padding: 0;
+    padding-left: 0.8rem;
+    background-color: #fafafa;
+    color: var(--color-primary);
+  }
+}
