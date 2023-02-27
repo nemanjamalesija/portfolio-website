@@ -76,7 +76,7 @@
 
 @media screen and (orientation: landscape) {
   .section-hero {
-    margin-bottom: 12rem;
+    padding-bottom: 12rem;
   }
 }
 
@@ -107,6 +107,7 @@
 @media (max-width: 595px) {
   .section-hero {
     width: 50rem;
+    padding-top: 8rem;
   }
 }
 
