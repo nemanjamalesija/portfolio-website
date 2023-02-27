@@ -36,6 +36,7 @@
 .links-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style-type: none;
 }
 
@@ -67,4 +68,29 @@
 
 .full-opacity {
   opacity: 1;
+}
+
+@media (max-width: 915px) {
+  .list-item {
+    min-width: 10rem;
+  }
+}
+
+@media (max-width: 691px) {
+  .nav {
+    padding: 0 3rem;
+  }
+
+  .links-list {
+    width: auto;
+  }
+
+  .list-item {
+    min-width: 8rem;
+    font-size: 1.6rem;
+  }
+
+  .author-paragraph {
+    font-size: 1.6rem;
+  }
 }

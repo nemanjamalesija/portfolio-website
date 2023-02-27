@@ -116,3 +116,30 @@ a:visited {
     width: 80rem;
   }
 }
+
+@media (max-width: 821px) {
+  .container {
+    width: 70rem;
+  }
+
+  .subheading {
+    font-size: 1.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 821px) {
+  .container {
+    width: 60rem;
+  }
+
+  .subheading {
+    font-size: 1.4rem;
+  }
+  .heading-secondary {
+    font-size: 3rem;
+  }
+}

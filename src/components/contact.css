@@ -78,3 +78,22 @@ textarea,
     font-size: 1.6rem;
   }
 }
+
+@media (max-width: 691px) {
+  .form-container {
+    max-width: 50rem;
+    padding: 3.6rem 4rem 4rem 4rem;
+  }
+
+  .form-contact input,
+  textarea,
+  .btn-form,
+  .p-success,
+  .p-failure {
+    font-size: 1.4rem;
+  }
+
+  .form-contact textarea {
+    min-height: 10rem;
+  }
+}

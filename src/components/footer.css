@@ -60,3 +60,9 @@
   margin-right: 1rem;
   width: 2.5rem;
 }
+
+@media (max-width: 691px) {
+  .footer-upper {
+    padding: 4.8rem 0;
+  }
+}

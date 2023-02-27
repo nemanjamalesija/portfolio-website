@@ -25,3 +25,20 @@
   display: flex;
   gap: 1.2rem;
 }
+
+@media (max-width: 821px) {
+  .project-display-item {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .project-display-description-div {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 691px) {
+  .project-display-description-p {
+    font-size: 1.6rem;
+  }
+}

@@ -79,3 +79,32 @@
     width: 80rem;
   }
 }
+
+@media (max-width: 821px) {
+  .section-hero {
+    width: 70rem;
+  }
+}
+
+@media (max-width: 821px) {
+  .section-hero {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 691px) {
+  .big-heading,
+  .smaller-heading {
+    font-size: clamp(2.5rem, 6.5vw, 6.5rem);
+  }
+
+  .hero-paragraph {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 595px) {
+  .section-hero {
+    width: 50rem;
+  }
+}
