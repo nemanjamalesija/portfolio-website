@@ -93,11 +93,6 @@
 }
 
 @media (max-width: 691px) {
-  .big-heading,
-  .smaller-heading {
-    font-size: clamp(2.5rem, 6.5vw, 6.5rem);
-  }
-
   .hero-paragraph {
     font-size: 1.9rem;
   }
