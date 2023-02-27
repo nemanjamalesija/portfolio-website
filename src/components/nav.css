@@ -117,8 +117,8 @@
   }
 
   .author-photo {
-    width: 3.6rem;
-    height: 3.6rem;
+    width: 3.4rem;
+    height: 3.4rem;
   }
 
   .author-paragraph {
@@ -131,10 +131,11 @@
     gap: 0.5rem;
   }
 
-  .list-item-contact {
-    padding: 0;
-    background-color: #fafafa;
-    color: var(--color-primary);
+  .list-item-contact,
+  .list-item-contact:active {
+    padding: 0 !important;
+    background-color: #fafafa !important;
+    color: var(--color-primary) !important;
     font-weight: 600;
   }
 
@@ -146,7 +147,7 @@
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 425px) {
   .nav {
     padding: 0 0.5rem;
   }
@@ -156,7 +157,7 @@
   }
 
   .list-item {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     min-width: 4rem;
   }
 
@@ -166,7 +167,7 @@
   }
 
   .author-paragraph {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 
