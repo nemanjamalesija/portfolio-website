@@ -45,12 +45,13 @@ const About = () => {
               <span className="skill">CSS3</span>
               <span className="skill">BootStrap</span>
               <span className="skill">SAAS</span>
-              <span className="skill">Responsive Design</span>
               <span className="skill">Javascript</span>
               <span className="skill">React</span>
               <span className="skill">React Query</span>
               <span className="skill">Typescript</span>
               <span className="skill">Git</span>
+              <span className="skill">Responsive Design</span>
+              <span className="skill">User Accesibility</span>
             </div>
           </div>
         </div>
